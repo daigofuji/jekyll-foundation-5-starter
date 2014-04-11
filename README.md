@@ -18,24 +18,35 @@ You can see the working page here: [github pages](http://daigofuji.github.io/jek
 9. edit nav.html within include
 10. Done!
 
-Distributing with the same licence as foundation, which is MIT.
+Use at your own resk, and follw licence restriction of each products used. Most are MIT (OK to use commercially).
 
 ### Useful command:
 
 Run the compass by doing 
 
-    '''compass watch'''
+`compass watch`
 
 <a href="http://daigo.org/2013/11/installing-npm-on-mavericks-macbook-pro/">This blog post</a> may be useful if you are like me and running Mac OS X.
 
 If you want to make sure foundation is up to date, try 
 
-    '''foundation update'''
+`foundation update`
 
 (requires bowser)
 
 To run jekyll locally, run 
 
-    '''bundle exec jekyll serve --watch'''
+`bundle exec jekyll serve --watch`
     
-<a href="https://help.github.com/articles/using-jekyll-with-pages">See this</a>. Run '''bundle update''' to 
+Github's doc on <a href="https://help.github.com/articles/using-jekyll-with-pages">how to use Jekyll on Github Pages</a>. 
+
+Run `bundle update` to keep update the gem.
+
+### Special Thanks
+
+Special thanks to <a href="https://github.com/h5bp/html5-boilerplate">HTML 5 Boilerplate</a> whose code I have based this on.
+
+and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> for bing awesome. 
+
+### To do: 
+* use grunt.

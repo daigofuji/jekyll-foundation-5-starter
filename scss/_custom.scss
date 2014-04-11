@@ -1,10 +1,65 @@
 h1, h2, h3, h4, h5, h6 {
-	font-family: $head-font-stack;
+	font-weight: 200;
 	@media #{$medium-up} {
-		line-height: 1.1;
 	}
 	@media #{$large-up} {
-		line-height: 1;
 	}
 }
 
+
+
+/** 
+//	 Borrowed From: Kianosh Pourian "Sass in Depth" book
+//	 * Spacing classes 
+//	 * Should be used to modify the default 
+//	 * spacing between objects (not between nodes of the same 
+//	 * object)
+//	 * Please use judiciously. You want to be 
+//	 * using defaults most of the time, these are 
+//	 * exceptions! 
+//	 * <type><location><size>
+//	 */
+//	/* spacing helpers
+//	p,m = padding,margin
+//	a,t,r,b,l,h,v = all,top,right,bottom,left,
+//	horizontal,vertical
+//	s,m,l,n = small(10px),medium(20px),large(40px),none(0px)
+//	*/
+$space-small: 0.625rem !default;
+$space-medium: 1.250rem !default;
+$space-large: 2.500rem !default;
+
+.ptn,.pvn,.pan { padding-top: 0 !important }
+.pts,.pvs,.pas { padding-top: $space-small !important }
+.ptm,.pvm,.pam { padding-top: $space-medium !important }
+.ptl,.pvl,.pal { padding-top: $space-large !important }
+.prn,.phn,.pan { padding-right: 0 !important }
+.prs,.phs,.pas { padding-right: $space-small !important }
+.prm,.phm,.pam { padding-right: $space-medium !important }
+.prl,.phl,.pal { padding-right: $space-large !important }
+.pbn,.pvn,.pan { padding-bottom: 0 !important }  
+.pbs,.pvs,.pas { padding-bottom: $space-small !important }
+.pbm,.pvm,.pam { padding-bottom: $space-medium !important }
+.pbl,.pvl,.pal { padding-bottom: $space-large !important }
+.pln,.phn,.pan { padding-left: 0 !important }
+.pls,.phs,.pas { padding-left: $space-small !important }
+.plm,.phm,.pam { padding-left: $space-medium !important }
+.pll,.phl,.pal { padding-left: $space-large !important }
+.mtn,.mvn,.man { margin-top: 0 !important }
+.mts,.mvs,.mas { margin-top: $space-small !important }
+.mtm,.mvm,.mam { margin-top: $space-medium !important }
+.mtl,.mvl,.mal { margin-top: $space-large !important }
+.mrn,.mhn,.man { margin-right: 0 !important }
+.mrs,.mhs,.mas { margin-right: $space-small !important }
+.mrm,.mhm,.mam { margin-right: $space-medium !important }
+.mrl,.mhl,.mal { margin-right: $space-large !important }
+.mbn,.mvn,.man { margin-bottom: 0 !important }  
+.mbs,.mvs,.mas { margin-bottom: $space-small !important }
+.mbm,.mvm,.mam { margin-bottom: $space-medium !important }
+.mbl,.mvl,.mal { margin-bottom: $space-large !important }
+.mln,.mhn,.man { margin-left: 0 !important }
+.mls,.mhs,.mas { margin-left: $space-small !important }
+.mlm,.mhm,.mam { margin-left: $space-medium !important }
+.mll,.mhl,.mal { margin-left: $space-large !important }
+.mra,.mha { margin-right: auto !important } 
+.mla,.mha { margin-left: auto !important }
