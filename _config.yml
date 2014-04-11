@@ -2,6 +2,7 @@ name : my site
 brand : my site
 description : description of my site
 keyword:  
-url : http://example.com
-email : email@example.com
+url : http://daigo.org
+email : daigo@daigofujiwara.com
 author: Daigo Fujiwara
+markdown: kramdown
