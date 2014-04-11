@@ -1,0 +1,28 @@
+/* 
+	style.css 
+	Written by Daigo Fujiwara (@DaigoFuji)
+	Date: PUBLISHEDDATE
+	use this: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#CSS_Style_Rules
+	also: http://csslint.net/ (Will hurt your feelings)
+*/
+
+/* Get Google font http://www.google.com/fonts
+*/
+/* I will be using those fonts.
+headlines: Stint Ultra Expanded 
+body: Lora, 18px over 28px 
+*/
+@import url("http://fonts.googleapis.com/css?family=Lora:400,700,400italic|Stint+Ultra+Expanded");
+
+/* get css3 mixins http://compass-style.org/reference/compass/css3/ */
+@import "compass/css3";
+
+/* normalize it */
+@import "normalize";
+
+/* foundation */
+@import "settings",
+		"foundation";
+
+/* custom */
+@import "custom";

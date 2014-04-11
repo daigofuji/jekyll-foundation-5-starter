@@ -1,0 +1,10 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: $head-font-stack;
+	@media #{$medium-up} {
+		line-height: 1.1;
+	}
+	@media #{$large-up} {
+		line-height: 1;
+	}
+}
+

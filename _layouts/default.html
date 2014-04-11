@@ -1,0 +1,141 @@
+<!doctype html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }} - {{ site.name }}</title>
+    <meta name="description" content="{{ page.title }} - {{ site.name }}" />
+    <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
+
+    <!-- CSS  Get: http://www.google.com/fonts/
+    http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included
+    ================================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!-- Fount Awesome -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Ah, the favicon.
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
+    Twitter: https://dev.twitter.com/docs/cards/types/summary-card
+    ============================== -->
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:site_name" content=" - {{ site.name }}"/>
+    <meta property="og:url" content=" - {{ site.url }}"/>
+    <meta property="og:description" content="{{ page.description }}"/>
+    <!--<meta property="og:image" content="http://IMAGEURL"/> -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@DaigoFuji">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <!--<meta name="twitter:image" content="http://IMAGEURL">-->
+  
+    <!-- modernizr
+    ================================================== -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+
+<div class="off-canvas-wrap">
+  <div class="inner-wrap">    
+    <!-- Add header and nav here  -->
+    
+
+
+    <header id="header" class="row">
+
+        <div class="large-12 columns">
+            <section class="right show-for-medium-up">
+                <ul class="inline-list">
+                    {% include nav.html %}
+                </ul>
+            </section>
+
+            <section class="right show-for-small">
+                <ul class="inline-list">
+                <li>
+                    <a class="right-off-canvas-toggle"><i class="fa fa-bars fa-2x">
+                    </i></a>
+                </li>
+                </ul>
+            </section>
+
+
+            <h1><a href="/">{{ site.brand }}</a></h1>
+
+            <hr>
+        </div>
+    </header>
+
+        <!-- Off Canvas Menu -->
+        <aside class="right-off-canvas-menu">
+            <!-- navigation list goes here -->
+            <ul>
+               {% include nav.html %}
+            </ul>
+        </aside>
+
+        <!-- main content goes here -->
+        <p></p>
+
+
+        <div class="row">
+          <section role="main">
+            <div class="large-12 columns">
+        
+              {{ content }} 
+           
+            </div>
+          </section>
+        </div>
+        
+
+        <footer class="site-footer row" role="contentinfo">
+        <hr/>
+          <div class="large-12 columns">
+            <ul class="inline-list">
+                {% include nav.html %}
+            </ul>
+            <p class="quiet copyright right"> <a href="https://twitter.com/daigofuji">
+                <i class="fa fa-twitter">
+                </i>
+             @DaigoFuji</a>, 2013.</p>
+          </div>
+        </footer>
+
+
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
+
+      </div>
+    </div>
+
+
+    <!-- Loading JavaScripts
+    ================================================== -->
+    <!-- Zepto (http://zeptojs.com/) is great, but I am sticking with jQuery. Sorry! -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+  </body>
+</html>
