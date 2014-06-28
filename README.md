@@ -49,5 +49,3 @@ Special thanks to <a href="https://github.com/h5bp/html5-boilerplate">HTML 5 Boi
 
 and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> for bing awesome. 
 
-### To do: 
-* use grunt.
