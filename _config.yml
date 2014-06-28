@@ -1,8 +1,13 @@
-name : my site
-brand : my site
-description : description of my site
-keyword:  
+name : Foundation/Jykill starter
+brand : My Site
+description : This is the description of my site
+keyword: 
 url : http://daigo.org
+imageurl: http://www.daigo.org/wordpress/wp-content/themes/daigo_org-theme-2013/img/glasses.png
 email : daigo@daigofujiwara.com
+twitter : DaigoFuji
+github : DaigoFuji
 author: Daigo Fujiwara
+analytics: UA-8418273-8
+year: 2014
 markdown: kramdown

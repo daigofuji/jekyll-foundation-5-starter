@@ -48,10 +48,10 @@ $hvpos: v;
 			$hvpos: h;
 		} @else if $position == "b" {
 			$pos: bottom;
-			$hvpos: h;
+			$hvpos: v;
 		} @else if $position == "l" {
 			$pos: left;
-			$hvpos: v;
+			$hvpos: h;
 		}
 		@each $size in $sizes {
 			$tempVar3: #{$tempVar2}#{$size};
