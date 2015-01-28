@@ -1,13 +1,13 @@
-name : Foundation/Jykill starter
+name : Foundation5/github pages/Jykill starter
 brand : My Site
 description : This is the description of my site
 keyword: 
-url : http://daigo.org
+url : http://daigofuji.github.io/jekyll-foundation-5-starter/
 imageurl: http://www.daigo.org/wordpress/wp-content/themes/daigo_org-theme-2013/img/glasses.png
 email : daigo@daigofujiwara.com
 twitter : DaigoFuji
 github : DaigoFuji
 author: Daigo Fujiwara
 analytics: UA-8418273-8
-year: 2014
+year: 2015
 markdown: kramdown
