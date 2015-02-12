@@ -1,4 +1,6 @@
-/.sass-cache/*
+.sass-cache
 *.DS_Store
-_site/*
+_site
 Gemfile.lock
+bower_components
+node_modules
