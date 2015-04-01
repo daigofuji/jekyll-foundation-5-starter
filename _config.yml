@@ -1,12 +1,12 @@
-name : Foundation5/github pages/Jykill starter
-brand : My Site
-description : This is the description of my site
-keyword : 
-url : http://daigofuji.github.io/jekyll-foundation-5-starter/
-email : daigo@daigofujiwara.com
-twitter : DaigoFuji
-github : DaigoFuji
-author : Daigo Fujiwara
-analytics : UA-8418273-8
+name : /home
+brand : atzorvas' corner
+description : dead for now
+keyword : tzorvas, atzorvas, jekyll, linux, ruby, python
+url : http://tzorvas.com/
+email : antonis@tzorvas.com
+twitter : atzorvas
+github : atzorvas
+author : Antonis Tzorvas
+analytics : UA-40901002-1
 year : 2015
 markdown : kramdown
