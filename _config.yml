@@ -1,12 +1,12 @@
 name : Foundation5/github pages/Jykill starter
-brand : My Site
-description : This is the description of my site
+brand : journey to the western software engineer
+description : random musings longer than 140 characters but less than an ebook
 keyword : 
-url : http://daigofuji.github.io/jekyll-foundation-5-starter/
+url : http://dijonkitchen.github.io/
 email : daigo@daigofujiwara.com
-twitter : DaigoFuji
-github : DaigoFuji
-author : Daigo Fujiwara
-analytics : UA-8418273-8
+twitter : dijonkitchen
+github : dijonkitchen
+author : dijonkitchen
+analytics : 
 year : 2015
 markdown : kramdown
