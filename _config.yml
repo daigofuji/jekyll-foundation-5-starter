@@ -10,5 +10,5 @@ author : Daigo Fujiwara
 analytics : UA-8418273-8
 year : 2015
 markdown : kramdown
-exclude:
+exclude :
   - node_modules
