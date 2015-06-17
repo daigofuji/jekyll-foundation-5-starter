@@ -5,7 +5,7 @@ description: This is my site. Welcome.
 keywords: github pages, Jekyll, foundation 5
 ---
 
-<h1 class="mvl">Whoa! Jekyll, Foundation 5, HTML5 boilerplate and github pages!</h1>
+<h1 class="mvl">NEW HEADLINE</h1>
 
 
 <div class="row">
