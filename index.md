@@ -10,13 +10,7 @@ keywords: github pages, Jekyll, foundation 5
 
 <div class="row">
 	<div class="medium-9 large-7 small-centered column">
-		<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+	
 		<p class="mbm">I've combined my locally installed <a href="http://foundation.zurb.com/docs/sass.html">libsass/grunt version of foundation 5</a>, <a href="http://html5boilerplate.com/">html5 boilder plate</a>, and Jekyll to be used for github pages! See <a href="http://jekyllrb.com/docs/home/">Jekyll's documentation</a>, <a href="http://foundation.zurb.com/docs/">the foundation documentations</a>, and <a href="https://help.github.com/categories/20/articles">GitHub pages help pages</a>.</p>
 
 		<p class="mbl">You can see all <a href="https://github.com/daigofuji/jekyll-foundation-5-starter/tree/gh-pages"><i class="fa fa-github"> 	
