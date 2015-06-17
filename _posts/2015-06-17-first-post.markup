@@ -1,0 +1,14 @@
+---
+layout: default
+title: First Post
+---
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+  post text goes here
+  </body>
+  
+  </html>

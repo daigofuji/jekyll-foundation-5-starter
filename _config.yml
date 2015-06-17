@@ -1,13 +1,13 @@
-name : Foundation5/github pages/Jykill starter
-brand : My Site
-description : This is the description of my site
+name : Web Branding Diva
+brand : Web Branding Diva
+description : Web Branding Diva website
 keyword : 
-url : http://daigofuji.github.io/jekyll-foundation-5-starter/
-email : daigo@daigofujiwara.com
-twitter : DaigoFuji
-github : DaigoFuji
-author : Daigo Fujiwara
-analytics : UA-8418273-8
+url : http://redsirendesign.github.io/webbrandingdiva.github.io/
+email : masha@redsirendesign.com
+twitter : redsirendesign
+github : Red Siren Design
+author : Red Siren Design
+analytics : 
 year : 2015
 markdown : kramdown
 exclude :
