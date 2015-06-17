@@ -18,9 +18,7 @@ keywords: github pages, Jekyll, foundation 5
 
 <div class="row"> 
 
-	<div class="large-4 columns">
-		<p><a href="page-html-unit-test.html">foundation-example.html</a> shows how all the html tags are rendered. Foundation takes care of those out of the box.</p>
-	</div>
+	
 
 	<div class="large-4 columns">
 		<p>Another example are shown in <a href="page-foundation-example.html">foundation-example.html</a>. </p>
