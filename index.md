@@ -9,7 +9,7 @@ keywords: tzorvas, atzorvas, github, jekyll
   <div class="medium-9 large-7 small-centered column">
     <div class="panel radius mvl">
       <p><ul class="fa-ul">
-    		<li><i class="fa-li fa fa-check-square"></i>CS Engineer Student @<a href="//www.icsd.aegean.gr/icsd_en">ICSD Dept</a>, <a href="//www.aegean.gr">University of the Aegean</a></li>
+    		<li><i class="fa-li fa fa-check-square"></i>CS Engineer Student @<a href="//www.icsd.aegean.gr/icsd_en">ICSD Dept</a>, University of the Aegean</li>
 			  <li><i class="fa-li fa fa-check-square"></i>Linux user since 2008 (Gentoo, Archlinux, Debian etc).</li>
 			  <li><i class="fa-li fa fa-check-square"></i>Android user since 2014.</li>
 			  <li><i class="fa-li fa fa-check-square"></i>rybuist & pythonista. Java.</li>
