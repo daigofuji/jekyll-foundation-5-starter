@@ -25,7 +25,7 @@ keywords: tzorvas, atzorvas, github, jekyll
 
 <div class="row">
   <div class="small-12 column text-center">
-      <a href="//facebook.com/atzorvas"><i class="fa fa-facebook-square fa-5x"></i></a>
+      <a href="//www.facebook.com/profile.php?id=100001616310273"><i class="fa fa-facebook-square fa-5x"></i></a>
       <a href="//twitter.com/atzorvas"><i class="fa fa-twitter-square fa-5x"></i></a>
       <a href="//github.com/atzorvas"><i class="fa fa-github-square fa-5x"></i></a>
       <a href="//www.linkedin.com/in/atzorvas"><i class="fa fa-linkedin-square fa-5x"></i></a>
