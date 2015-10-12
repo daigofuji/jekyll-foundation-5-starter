@@ -10,13 +10,13 @@ Ever wanted a simple but nice looking responsive website as your project page or
 You can see [the working example site here](http://daigofuji.github.io/jekyll-foundation-5-starter/)
 
 ### For User & Organization Pages
-See [documentation](https://help.github.com/articles/user-organization-and-project-pages/)
+See [github documentation](https://help.github.com/articles/user-organization-and-project-pages/)
 
-1. Fork this repo to your user or project
+1. Fork or copy this repo to your user or project
 2. From the `settings` rename the repo to `username.github.io` naming scheme.
 
 ### For Project Pages
-See [documentation](https://help.github.com/articles/user-organization-and-project-pages/#project-pages)
+See [github documentation](https://help.github.com/articles/user-organization-and-project-pages/#project-pages)
 
 1. Create a `gh-pages` branch, i.e. `git checkout -b gh-pages`
 2. [Download the contents of this repo](https://github.com/daigofuji/jekyll-foundation-5-starter/archive/master.zip)
@@ -33,27 +33,18 @@ Use at your own resk, and follw licence restriction of each products used. Most 
 
 ### Useful command:
 
-Run grunt to compile css from sass by simply run 
+This assumes you have grunt and bower installed. Make sure you have [npm](https://docs.npmjs.com/getting-started/installing-node), and have ran `npm install -g bower grunt-cli` to install bower and grunt globally.
 
-`grunt`
+Run grunt to compile css from sass by simply run `grunt` from your terminal within your repo. 
+It will launch watch by default. <code>control-c</code> to stop. If you only want the css compiled once, run `grunt sass`
 
-from your terminal. It will launch watch. <code>control-c</code> to stop.
-
-You need to have grunt installed. <a href="http://daigo.org/2013/11/installing-npm-on-mavericks-macbook-pro/">This blog post</a> may be useful if you are like me and running Mac OS X.
-
-To run jekyll locally, run 
-
-`bundle exec jekyll serve --watch`
+To run jekyll locally to test your website while developing, run  `bundle exec jekyll serve --watch` (requires ruby)
 
 Your website should be viewable by going to [localhost:4000](http://localhost:4000/)
 
-If you want to make sure foundation is up to date, try 
+Github's doc on [how to use Jekyll on Github Pages](https://help.github.com/articles/using-jekyll-with-pages) is also helpful. 
 
-`foundation update`
-
-(requires bower)
-
-Github's doc on <a href="https://help.github.com/articles/using-jekyll-with-pages">how to use Jekyll on Github Pages</a>. 
+For more on Foundation stuff that I am using, see [Foundation documentation](http://foundation.zurb.com/docs/sass.html)
 
 
 ### Special Thanks
