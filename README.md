@@ -5,7 +5,7 @@ Start [a github pages](https://pages.github.com/) website powerd by [Jekyll](htt
 
 ### What it is.
 
-Ever wanted a simple but nice looking responsive website as your project page or page for your repo? Are you in [a hackathon](http://baseballhackday.com) needing to put up a working website in munites? I do. Here is what I do, and I am sharing for you to use it, free. Free as in free speach AND free beer.
+Ever wanted a simple but nice looking responsive website as your project page or page for your repo? Are you in [a hackathon](http://baseballhackday.com) needing to put up a working website in minutes? I do. Here is what I do, and I am sharing for you to use it, free. Free as in free speach AND free beer.
 
 You can see [the working example site here](http://daigofuji.github.io/jekyll-foundation-5-starter/)
 
