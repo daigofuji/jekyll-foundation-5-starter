@@ -1,6 +1,9 @@
 jekyll-foundation-5-starter
 ===========================
 
+**NOTE: Check out my new [jekyll-foundation-6-starter](https://github.com/daigofuji/jekyll-foundation-6-starter/)**
+
+
 Start [a github pages](https://pages.github.com/) website powerd by [Jekyll](http://jekyllrb.com/docs/quickstart/) using [Foundation/SCSS](http://foundation.zurb.com/docs/sass.html) in under 5 minutes! 
 
 ### What it is.
